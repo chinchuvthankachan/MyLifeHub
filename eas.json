@@ -1,6 +1,6 @@
 {
   "cli": {
-    "version": ">= 3.8.0"
+    "version": ">= 3.0.0"
   },
   "build": {
     "development": {
@@ -10,7 +10,13 @@
     "preview": {
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "appVersionSource": "remote",
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.example.com"
+      }
+    }
   },
   "submit": {
     "production": {}
