@@ -4,9 +4,10 @@
   },
   "build": {
     "production": {
+      "appVersionSource": "remote",
       "autoIncrement": true,
-      "android": {
-        "appVersionSource": "remote"
+      "env": {
+        "EXPO_PUBLIC_MY_API_KEY": "mysecretkey"
       }
     }
   }
