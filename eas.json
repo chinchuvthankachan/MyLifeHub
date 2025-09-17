@@ -3,12 +3,6 @@
     "version": ">= 3.0.0"
   },
   "build": {
-    "production": {
-      "appVersionSource": "remote",
-      "autoIncrement": true,
-      "env": {
-        "EXPO_PUBLIC_MY_API_KEY": "mysecretkey"
-      }
-    }
+    "production": {}
   }
 }
